@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGoogle, FaLinkedin } from "react-icons/fa";
 import { SiX } from "react-icons/si"; // X.com icon
 

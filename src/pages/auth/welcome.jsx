@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-// import fundnexuslogo from '../../assets/auth/fundnexus-logo-name.svg';
 
 export default function WelcomePage() {
   const navigate = useNavigate();
@@ -11,7 +10,7 @@ export default function WelcomePage() {
         <p className="text-2xl mb-10">Welcome to</p>
         <div className="flex items-center justify-center mb-4">
           {/* <img
-            src={fundnexuslogo}
+            src="/auth/fundnexus-logo-name.svg"
             alt="FundNexus Logo"
             className="w-16 h-16 mr-3"
           /> */}
