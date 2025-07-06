@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Button from '../../components/Button/Button';
 
 export default function WelcomePage() {
   const navigate = useNavigate();
@@ -25,13 +26,13 @@ export default function WelcomePage() {
       {/* Action Buttons */}
       <div className="w-full max-w-xs space-y-4">
         <button
-          onClick={() => navigate('login')}
+          onClick={() => navigate('/login')}
           className="w-full py-3 bg-gray-300 text-gray-800 rounded-md text-lg font-medium hover:bg-gray-400 transition cursor-pointer">
           Log in
         </button>
         <div className="text-center text-gray-500">— Or —</div>
         <button
-          onClick={() => navigate('signup')}
+          onClick={() => navigate('/signup')}
           className="w-full py-3 bg-gray-300 text-gray-800 rounded-md text-lg font-medium hover:bg-gray-400 transition cursor-pointer">
           Sign Up
         </button>
