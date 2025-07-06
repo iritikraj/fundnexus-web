@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { FaGoogle, FaLinkedin } from "react-icons/fa";
 import { SiX } from "react-icons/si";
 // import StorageService from "../../services/storageService";
